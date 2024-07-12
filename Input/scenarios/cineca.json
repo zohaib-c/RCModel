@@ -1,0 +1,37 @@
+{
+    "name": "cineca",
+    "topologies": [{
+        "pathToFile": "topologies/cineca_topology.json"
+    }],
+    "workloads": [{
+        "pathToFile": "traces/cineca/260",
+        "type": "ComputeWorkload"
+    },
+    {
+        "pathToFile": "traces/cineca/261",
+        "type": "ComputeWorkload"
+    },
+    {
+        "pathToFile": "traces/cineca/262",
+        "type": "ComputeWorkload"
+    },
+    {
+        "pathToFile": "traces/cineca/263",
+        "type": "ComputeWorkload"
+    },
+    {
+        "pathToFile": "traces/cineca/264",
+        "type": "ComputeWorkload"
+    },
+    {
+        "pathToFile": "traces/cineca/265",
+        "type": "ComputeWorkload"
+    }],
+    "allocationPolicies": [{
+        "policyType": "Mem"
+    }],
+    "exportModels": [{
+        "exportInterval": 20
+    }],
+    "runs": 1
+}
