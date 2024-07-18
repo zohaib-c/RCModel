@@ -72,7 +72,7 @@ set CLASSPATH=%APP_HOME%\lib\opendc-experiments-scenario.jar;%APP_HOME%\lib\open
 
 
 @rem Execute scenario
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SCENARIO_OPTS%  -classpath "%CLASSPATH%" org.opendc.experiments.scenario.ScenarioCLI %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SCENARIO_OPTS%  -classpath "%CLASSPATH%" org.opendc.experiments.scenario.ScenarioCli %*
 
 :end
 @rem End local scope for the variables with windows NT shell

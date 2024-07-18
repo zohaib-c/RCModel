@@ -1,30 +1,30 @@
 {
     "name": "cineca",
     "topologies": [{
-        "pathToFile": "topologies/cineca_topology.json"
+        "pathToFile": "Input/topologies/cineca_topology.json"
     }],
     "workloads": [{
-        "pathToFile": "traces/cineca/260",
+        "pathToFile": "Input/traces/cineca/260",
         "type": "ComputeWorkload"
     },
     {
-        "pathToFile": "traces/cineca/261",
+        "pathToFile": "Input/traces/cineca/261",
         "type": "ComputeWorkload"
     },
     {
-        "pathToFile": "traces/cineca/262",
+        "pathToFile": "Input/traces/cineca/262",
         "type": "ComputeWorkload"
     },
     {
-        "pathToFile": "traces/cineca/263",
+        "pathToFile": "Input/traces/cineca/263",
         "type": "ComputeWorkload"
     },
     {
-        "pathToFile": "traces/cineca/264",
+        "pathToFile": "Input/traces/cineca/264",
         "type": "ComputeWorkload"
     },
     {
-        "pathToFile": "traces/cineca/265",
+        "pathToFile": "Input/traces/cineca/265",
         "type": "ComputeWorkload"
     }],
     "allocationPolicies": [{

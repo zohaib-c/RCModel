@@ -210,7 +210,7 @@ DEFAULT_JVM_OPTS=""
 
 set -- \
         -classpath "$CLASSPATH" \
-        org.opendc.experiments.scenario.ScenarioCLI \
+        org.opendc.experiments.scenario.ScenarioCli \
         "$@"
 
 # Stop when "xargs" is not available.
