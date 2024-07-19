@@ -29,6 +29,8 @@ def plot_results(all_cineca_dfs, all_sim_dfs):
     fig.legend(handles, labels, loc='upper center', ncol=2)
     plt.tight_layout(rect=(0.0, 0.0, 1.0, 0.96))
 
+    plt.savefig('Output/Simulation vs Cineca.png')
+
     plt.show()
 
 
@@ -52,8 +54,7 @@ def plot_power_error(all_cineca_dfs, all_sim_dfs):
 
     plt.tight_layout()
 
-    plt.savefig(f'/Users/zohaibzaheer/Desktop/Zohaib/VU/Computer Science/Thesis/Evaluation/'
-                f'output_final/Power Difference.png')
+    plt.savefig('Output/Power Difference.png')
     plt.show()
 
 
@@ -75,6 +76,5 @@ def plot_error_histograms(all_cineca_dfs, all_sim_dfs):
 
     plt.tight_layout()
 
-    plt.savefig(f'/Users/zohaibzaheer/Desktop/Zohaib/VU/Computer Science/Thesis/Evaluation/'
-                f'output_final/Error Histograms.png')
+    plt.savefig('Output/Error Histograms.png')
     plt.show()
