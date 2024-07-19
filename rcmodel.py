@@ -78,3 +78,6 @@ if __name__ == "__main__":
 
     # Create the DataFrame with the correct columns
     mape_df = pd.DataFrame(mape_data, columns=['temp_mape', 'power_mape'])
+    print(mape_df)
+
+    mape_df.to_csv('Output/mape_results.csv', index=True)
